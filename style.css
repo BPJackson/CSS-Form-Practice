@@ -12,12 +12,13 @@ body {
   margin-left:0.7%;
 }
 .secondbox{
-  width:45.4%;
+  width:48.5%;
   height:50px;
-  margin:20px;
+  margin-top:20px;
+  margin-bottom:20px;
 }
 .thirdbox{
-  width:93%;
+  width:95%;
   height:400px;
   margin-left:0.7%;
 
@@ -38,7 +39,6 @@ button {
 input, textarea {
   font-family:sans-serif;
   font-size:14px;
-  border-radius:10px;
   background:none;
   border-radius:5px;
   border:2px solid #75DBB3;
@@ -50,8 +50,8 @@ input, textarea {
   padding:20px;
 }
 @media screen and (max-width:612px) {
-.firstbox, .secondbox {
-  width:100%
-  padding:20px;
-  display:block;
-}}
+  .firstbox, .secondbox {
+    width:100%;
+    display:block;
+  }
+}
