@@ -1,0 +1,57 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background:#00C281;
+}
+
+.firstbox {
+  width:46%;
+  height:50px;
+  margin-left:0.7%;
+}
+.secondbox{
+  width:45.4%;
+  height:50px;
+  margin:20px;
+}
+.thirdbox{
+  width:93%;
+  height:400px;
+  margin-left:0.7%;
+
+}
+button {
+  background:#fff;
+  border-radius:5px;
+  border:none;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:200px;
+  color:#76DCB4;
+  width:300px;
+  height:100px;
+  font-size:20px;
+}
+input, textarea {
+  font-family:sans-serif;
+  font-size:14px;
+  border-radius:10px;
+  background:none;
+  border-radius:5px;
+  border:2px solid #75DBB3;
+  font-size:20px;
+  line-height:1.5;
+  padding:10px;
+}
+.text {
+  padding:20px;
+}
+@media screen and (max-width:612px) {
+.firstbox, .secondbox {
+  width:100%
+  padding:20px;
+  display:block;
+}}
